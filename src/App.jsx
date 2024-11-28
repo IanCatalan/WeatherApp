@@ -38,7 +38,7 @@ const App = () => {
     <div className="app">
         {
             (weather == undefined)
-            ?<Loading/>
+            ?<Loading hasError={hasError}/>
             :(
                 <WeatherCard 
                 weather={weather} 
