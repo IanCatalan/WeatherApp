@@ -1,8 +1,27 @@
-# React + Vite
+# ☀️ Aplicación de Clima - Weather API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación web de una sola página (SPA) que muestra el clima actual de la ubicación del usuario utilizando la API de Open Weather.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** para la interfaz de usuario.
+- **Axios** para realizar peticiones HTTP a la API de Weather App.
+- **Geolocalización del navegador** para obtener la ubicación del usuario.
+
+
+## 🔍 Funcionalidades
+
+- Detecta automáticamente la ubicación del usuario mediante geolocalización.
+- Interfaz simple y rápida.
+- Muestra el clima del usuario
+## 📌 Notas importantes
+
+- Necesitas una cuenta en **Weather App** para obtener una API Key.
+
+## 💡 Posibles mejoras
+
+- Agregar búsqueda manual por ciudad.
+- Mostrar el pronóstico extendido.
+- Mejorar el diseño con animaciones y gráficos.
+
+
